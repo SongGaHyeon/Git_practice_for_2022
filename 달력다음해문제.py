@@ -28,6 +28,8 @@ days=0
 for i in range(yy1,yy2):
 	if isYoon(i):
 		days+=366
+# 	days+=2 ->ok
+
 	else:
 		days+=365
 day1_index+=days
